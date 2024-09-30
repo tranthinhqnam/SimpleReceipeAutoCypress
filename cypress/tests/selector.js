@@ -4,6 +4,6 @@ describe('Element interaction', () => {
         cy.get('#username').type('tomsmith');
         cy.get('#password').type('SuperSecretPassword!');
         cy.get('button[type="submit"]').click();
-        cy.wait(3000)
+       
     });
 });

@@ -7,7 +7,7 @@ module.exports = defineConfig({
     },
     projectId : "sdetpro",
     specPattern : "./cypress/tests/**.*",
-    baseUrl :"https://the-internet.herokuapp.com/"
+    baseUrl :"https://www.amazon.com/",
   },
   defaultCommandTimeout :10000
 });
